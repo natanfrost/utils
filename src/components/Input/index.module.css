@@ -1,0 +1,33 @@
+.field {
+  label, input {
+    all: unset;
+  }
+  max-width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: var(--text-large);
+  color: var(--eerie-black);
+  input {
+    border: 1px solid var(--eerie-black);
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+  }
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+.inputContainer {
+  position: relative;
+}
