@@ -1,4 +1,6 @@
 .flex {
   display: flex;
   gap: 16px;
+  justify-content: space-around;
+  width: 100%;
 }

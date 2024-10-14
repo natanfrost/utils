@@ -11,9 +11,16 @@
   --text-small: 14px;
   --text-medium: 18px;
   --text-large: 24px;
+  --default-margin: 16px;
 }
 
-.courier-prime-regular {
+* {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
@@ -35,4 +42,4 @@
   font-family: "Courier Prime", monospace;
   font-weight: 700;
   font-style: italic;
-}
+} */
