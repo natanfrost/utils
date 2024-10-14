@@ -1,0 +1,12 @@
+.button {
+  all: unset;
+  height: 40px;
+  border: 1px solid var(--eerie-black);
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

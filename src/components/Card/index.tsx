@@ -6,7 +6,7 @@ type CardProps = {
   flex: boolean
 }
 
-export const Card: FC<CardProps> = ({ children, flex }) => {
+export const Card: FC<CardProps> = ({ children }) => {  
   return (
     <div className={classes.flex}>
       {children}

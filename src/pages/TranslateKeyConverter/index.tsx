@@ -24,6 +24,9 @@ export const TranslateKeyConverter = () => {
 
   return (
     <Container>
+      <Container maxWidth="70%">
+        
+      <Typography type="h2" text="Conversor de chaves de tradução" />
       <Input name='teste' onChange={handleChange} label='Informe a chave para conversão:' type='text' canAutoPaste value={translateKey}/>
       {
         convertedKey && 
@@ -35,6 +38,7 @@ export const TranslateKeyConverter = () => {
           </Card>
         </>
       }
+      </Container>
     </Container>
   )
 }

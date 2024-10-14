@@ -4,7 +4,7 @@ import classes from './index.module.css'
 type InputProps = {
   name: string;
   label: string;
-  type: 'text' | 'number';
+  type: 'text' | 'number' | 'select';
   value: string;
   onChange: (value: string) => void;
   canAutoPaste: boolean
@@ -17,7 +17,7 @@ export const Input = ({name, label, type, value, onChange, canAutoPaste}: InputP
   }
 
   return (
-    <><label className={`${classes.field} courier-prime-regular`}>
+    <><label className={classes.field}>
       {label}
       <div className={classes.inputContainer}>
         <input 
