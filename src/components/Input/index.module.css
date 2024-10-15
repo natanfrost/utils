@@ -9,10 +9,9 @@
   flex-direction: column;
   gap: 8px;
   font-size: var(--text-large);
-  color: var(--eerie-black);
   width: 100%;
   input {
-    border: 1px solid var(--eerie-black);
+    border: var(--border-default);
     height: 40px;
     padding-top: 8px;
     padding-left: 16px;

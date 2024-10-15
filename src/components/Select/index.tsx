@@ -1,5 +1,6 @@
 import { FC } from "react";
 import classes from './index.module.css';
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 type Options = {
   text: string;
@@ -20,6 +21,9 @@ export const Select: FC<SelectProps> = ({ options, id, label, name, displayCobin
   return (
     <label className={classes.select} htmlFor={id}>
       {label}
+      <div className={classes["arrow-container"]}>
+        <AiOutlineArrowDown className={classes.arrow} color="white" />
+      </div>
       <select defaultValue={defaultValue} name={name} id={id} onChange={({ target: { value } }) => onChange(value)}>
         {
           options.map(opt => 

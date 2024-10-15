@@ -1,45 +1,42 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'theme/colors.css';
+@import 'theme/fonts.css';
 
 :root {
-  --eerie-black: #1c1c1cff;
-  --platinum: #daddd8ff;
-  --alabaster: #ecebe4ff;
-  --antiflash-white: #eef0f2ff;
-  --ghost-white: #fafaffff;
-  --text-small: 14px;
-  --text-medium: 18px;
-  --text-large: 24px;
-  --default-margin: 16px;
+  --background-color-default: var(--ghost-white);
+  --background-color-contrast: var(--platinum);
+  --text-color-default: var(--eerie-black);
+  --shadow-default: 0px 2px 2px 0px var(--platinum);
+  --border-default: 1px solid var(--eerie-black);
+
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+}
+
+[data-theme="dark"] {
+  --background-color-default: var(--eerie-black);
+  --text-color-default: var(--ghost-white);
+  --shadow-default: 0px 2px 2px 0px var(--platinum);
+  --border-default: 1px solid var(--platinum);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--background-color-default);
 }
 
 * {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
+  color: var(--text-color-default);
 }
 
-/* .courier-prime-regular {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.courier-prime-bold {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.courier-prime-regular-italic {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.courier-prime-bold-italic {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: italic;
-} */

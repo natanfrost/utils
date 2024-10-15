@@ -75,3 +75,46 @@ export const STATUS_CODES: SelectField[] = [
   { value: 504, text: "Gateway Timeout" },
   { value: 505, text: "HTTP Version Not Supported" }
 ];  
+
+export const PROMPT_TYPES: SelectField[] = [
+  {
+    value: "engracado",
+    text: "Engraçado"
+  },
+  {
+    value: "serio",
+    text: "Sério"
+  },
+  {
+    value: "informativo",
+    text: "Informativo"
+  },
+  {
+    value: "criativo",
+    text: "Criativo"
+  },
+  {
+    value: "inspirador",
+    text: "Inspirador"
+  },
+  {
+    value: "educativo",
+    text: "Educativo"
+  },
+  {
+    value: "motivacional",
+    text: "Motivacional"
+  },
+  {
+    value: "filosofico",
+    text: "Filosófico"
+  },
+  {
+    value: "encorajador",
+    text: "Encorajador"
+  },
+  {
+    value: "interativo",
+    text: "Interativo"
+  }
+]

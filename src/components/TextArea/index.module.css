@@ -4,10 +4,11 @@
   }
   textarea {
     height: 400px;
-    border: 1px solid var(--eerie-black);
+    border: var(--border-default);
     padding: 16px;
-    width: calc(100% - 16px);
+    width: calc(100% - 32px);
   }
+  font-size: var(--text-large);
   padding-top: 8px;
   padding-bottom: 8px;
   width: 100%;
@@ -17,6 +18,4 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: var(--text-large);
-  color: var(--eerie-black);
 }

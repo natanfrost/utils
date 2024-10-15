@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { TranslateKeyConverter } from "./pages/TranslateKeyConverter";
 import { MockGenerator } from "./pages/MockGenerator";
-import { Header } from "./components/Header";
 import App from "./App";
 
 export const router = createBrowserRouter([

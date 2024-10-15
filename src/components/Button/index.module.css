@@ -1,7 +1,7 @@
 .button {
   all: unset;
   height: 40px;
-  border: 1px solid var(--eerie-black);
+  border: var(--border-default);
   width: 100%;
   padding-top: 8px;
   padding-bottom: 8px;
